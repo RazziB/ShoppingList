@@ -11,7 +11,7 @@ class Counter extends React.Component {
     };
 
     addItem = () => {
-        if(this.state.todoList.length >= 5)
+        if(this.state.todoList.length >= 15)
             alert("NO MORE ITEMS")
 
 
